@@ -11,9 +11,34 @@ VMware is virtualization software that can run multiple operating systems, it ca
 
 ## Built internal network
 In VirtualBox we can built an internal network and let each devices in it can communicating.
+
 <img src="settingInternalNet.PNG" alt="AND gate" title="AND gate" width="400" />
+
 > set each devices internal network to conect to the same internal network
 
-<img src="example.jpg" alt="AND gate" title="AND gate" width="400" />
+<img src="example.jpg" alt="set IP" title="set IP" width="400" />
 
 > set each devices IP address and using one device to ping the other device
+
+## Make Two Devices Communicating by Using Cloud
+Actualy there are two ways to conect two devices, by using SSH or Telnet. But Telnet is unsecure so it's better to use SSH instead of Telnet in conecting two devices.
+
+<img src="connectSSH.jpg" alt="connect SSH" title="connect SSH" width="400" />
+
+> conecting "centos7 Clone" to "centos7"
+
+## Linux Command
+to see the ip configuration
+```
+$ ifconfig
+```
+
+reset the modification in IP address, for example the device network name is epn0s3
+```
+$ ifconfig enp03s 0
+```
+
+using terminal to set up IP address. (New IP = 192.168.100.1, Net Mask = 24)
+```
+$ ifconfig enp03s 192.168.100.1/24
+```
