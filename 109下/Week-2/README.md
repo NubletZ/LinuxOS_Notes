@@ -27,18 +27,58 @@ Actualy there are two ways to conect two devices, by using SSH or Telnet. But it
 
 > conecting "centos7 Clone" (left side) to "centos7" (right side) by typing "ssh user@192.168.100.2" in centos7.
 
+<br>
+
 ## Linux Command
-to see the ip configuration write the command below in terminal
+### 1. show the IP address
+to see the ip address write the command below in terminal
 ```
 $ ifconfig
 ```
 
-below is command to reset the modification in IP address, suppose that device network name is epn0s3
+---
+<br>
+
+### 2. Reset IP address modification
+below is command to reset the modification on IP address, suppose that device network name is epn0s3
 ```
 $ ifconfig enp03s 0
 ```
 
-using terminal to set up IP address. (New IP = 192.168.100.1, Net Mask = 24)
+---
+<br>
+
+### 3. Set IP address
+Write the command below in terminal to set IP address. (New IP = 192.168.100.1, Net Mask = 24)
 ```
 $ ifconfig enp03s 192.168.100.1/24
 ```
+
+---
+<br>
+
+### 4. Set new hostname
+to set new hostname, first need to switch to root by typing the command below and insert the root password.
+
+```
+$ su
+```
+
+After that type the following command to see our current hostname:
+
+```
+$ hostnamectl
+```
+sample output:
+
+<img src="setHostname1.png" alt="su" title="su" width="900" />
+
+Use the command below to change the hostname. For example we want to change the device name from "centos7" into "centos7new"
+```
+$ hostnamectl set-hostname centos7new
+```
+sample output:
+
+<img src="setHostname2.png" alt="su" title="su" width="900" />
+
+As you can see from the image above, after we change the hostname and type "hostnamectl" the hostname already changed into "centos7new".
