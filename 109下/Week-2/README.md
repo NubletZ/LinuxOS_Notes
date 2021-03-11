@@ -16,7 +16,7 @@ In VirtualBox we can built an internal network and let each devices in it can co
 
 > set each devices internal network to conect to the same internal network
 
-<img src="example.jpg" alt="set IP" title="set IP" width="900" />
+<img src="example2.jpg" alt="set IP" title="set IP" width="900" />
 
 > set each devices IP address by typing for example "ifconfig enp0s3 192.168.100.2/24" like what's wrote on centos7 clone terminal (left side) and using one device to ping the other device. Here I use centos7 (right side) to ping centos7 clone (left side).
 
