@@ -38,4 +38,4 @@ Now you should be able to login to the server without being prompted to fill in 
 ### 2. Install VirtualBox Guest Additions in VMBox
 First open the terminal and type "su" to switch to the root user. Open the menu bar "Devices" and choose "Insert Guest Addition CD Image..."
 
-<img src="insertCD.PNG" alt="insertCD" title="insertCD" width="800" />
+<img src="insertCD.png" alt="insertCD" title="insertCD" width="800" />
