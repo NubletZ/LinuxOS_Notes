@@ -52,9 +52,8 @@ $ mount -r /dev/cdrom /media/VirtualBoxGueestAdditons
 Update and install the kernel that required for building external kernel modules
 ```
 $ yum update kernel
-
 ```
-after kernel is updated, reboot your VM before continue to the next command.
+after kernel is updated, reboot your VM before continue to type the commands below.
 ```
 $ yum install gcc kernel-devel kernel-headers
 ```
@@ -65,3 +64,43 @@ you can check your kernel version by type this command :
 ```
 $ uname -r
 ```
+sample output :
+```
+2.6.18-194.11.1.el5-x86_64
+```
+<br>
+
+## Command
+```
+$ echo "some string"
+```
+
+> this command will print out the string in your terminal.
+
+```
+$ echo "hello world" > hello.htm
+```
+
+> this command wouldn't print the string in your terminal, it will save the string in file "he.htm" instead.
+
+```
+$ cat filename
+```
+
+> cat command is used to show the file content in your terminal.
+
+```
+$sudo python -m SimpleHTTPServer 80
+```
+
+> this command will create a web server that will listen to the port 80
+
+
+<br>
+
+## Notes
+### Red Hat
+Red Hat is an enterprisee software company with an open source development model. This company is devided into 2 part, Centos and Fedora. If they develop new version, they will give it to Fedora. So the source in Fedora is up to date but still unstable. After this version become stable then it will be put in CentOS for free version and also back to Red Hat. The things is in CentOS if there is any problem then you need to solve it by yourself. While Red Hat is the paid version and provide service to help you to solve the problem.
+
+### IP 0.0.0.0
+If you see IP 0.0.0.0 this means it listen to any interface.
