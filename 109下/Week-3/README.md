@@ -1,4 +1,14 @@
 # LINUX WEEK 3 (09-03-2021)
+
+## Notes
+### Red Hat
+Red Hat is an enterprisee software company with an open source development model. This company is devided into 2 part, Centos and Fedora. If they develop new version, they will give it to Fedora. So the source in Fedora is up to date but still unstable. After this version become stable then it will be put in CentOS for free version and also back to Red Hat. The things is in CentOS if there is any problem then you need to solve it by yourself. While Red Hat is the paid version and provide service to help you to solve the problem.
+
+### IP 0.0.0.0
+If you see IP 0.0.0.0 this means it listen to any interface.
+
+<br>
+
 ## How to
 ### 1. Set up SSH passwordless login
 First we need to generating a new SSH key pair by type the following command.
@@ -95,12 +105,3 @@ $sudo python -m SimpleHTTPServer 80
 
 > this command will create a web server that will listen to the port 80
 
-
-<br>
-
-## Notes
-### Red Hat
-Red Hat is an enterprisee software company with an open source development model. This company is devided into 2 part, Centos and Fedora. If they develop new version, they will give it to Fedora. So the source in Fedora is up to date but still unstable. After this version become stable then it will be put in CentOS for free version and also back to Red Hat. The things is in CentOS if there is any problem then you need to solve it by yourself. While Red Hat is the paid version and provide service to help you to solve the problem.
-
-### IP 0.0.0.0
-If you see IP 0.0.0.0 this means it listen to any interface.
