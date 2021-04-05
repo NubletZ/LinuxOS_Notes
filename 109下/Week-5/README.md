@@ -1,4 +1,4 @@
-# LINUX WEEK 4 (16-03-2021)
+# LINUX WEEK 5 (23-03-2021)
 ## Notes
 ### Six stages of Linux booting process
 1. BIOS : Basic Input/Output System will loads and executes MBR boot loader.
@@ -41,7 +41,7 @@ $!!
 
 ---
 
-if you type "$gedit a.txt" you still can do input in your terminal, but can't type command because you terminal is currently execute it. Type it like the command below to put the process on the background so you can continue to type command while editing the file
+if you type "$gedit a.txt" you still can do input in your terminal, but can't type command because you terminal is currently editing a.txt file. Type it like the command below to put the process on the background so you can continue to type command while editing the file
 ```
 $ gedit a.txt &
 ```
@@ -56,11 +56,11 @@ in this commands "^$" means enter character while "/d" means delete, so this com
 
 ---
 
-to sho who is currently in system you can type:
+to show who is currently in system you can type:
 ```
 $ who
 ```
-or to show more information type :
+or to show more information about it, type :
 ```
 $ w
 ```

@@ -20,7 +20,7 @@ This directory contains executable files for basic shell commands (ls, cd, etc).
 
 * /dev/null : a special device that won't prodeuces any output and automatically discards all input.
 * /dev/zero : contains infinite sequence of 0
-*/dev/random : make an infinite sequence of random number
+* /dev/random : make an infinite sequence of random number
 
 ### 4. /etc : Configuration files
 this directory contains system-wide configuration files, while user-specific counfiguration files are located in specific user's home directory.
@@ -129,5 +129,5 @@ grep [options] pattern [files]
 grep options description:
 
 * -c : will only print the count of the lines that match a pattern
-* -i : Ignores, case for matching
-* -v : This will prints ou all lines that do not matches the pattern
+* -i : ignores, case for matching
+* -v : this will prints out all lines that do not matches the pattern

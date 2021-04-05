@@ -20,7 +20,7 @@ To change back to the previous working directory, write dash (-) after the cd co
 ```
 $cd -
 ```
-To navegate back to the home directory just simply add tilde (~) after the cd command :
+To navigate back to the home directory just simply add tilde (~) after the cd command :
 ```
 $cd ~
 ```
