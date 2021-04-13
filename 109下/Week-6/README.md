@@ -43,6 +43,7 @@ The output structure will show the privilege for owner, group, and others, it go
 File    owner   group   others
 
 The file could be :
+    - : file
     d : directory
     c : character
     b : block
@@ -57,9 +58,10 @@ c rwx------.
     *note that this rwx is for file only
 while for directory
     r : you can execute ls for that directory
+    w : whether you can edit that dictionary (e.x. remove file, add file, rename file)
     x : whether you can enter that directory or not
 
-other way to describe privilage can also be written like 600, 644, this means :
+another way to describe privilage can also be written like 600, 644, this means :
     6       0       0
     110     000     000
     rw-     ---     ---
