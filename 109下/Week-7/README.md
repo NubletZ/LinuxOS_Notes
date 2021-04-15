@@ -1,4 +1,4 @@
-# LINUX WEEK 7 (13-04-2021)
+# LINUX WEEK 7 (04-13-2021)
 ## Notes
 ### Linux File Permissions
 You need to know that Linux uses a combination of bits to store the permissions of a file. In the previous notes we already know a little about file permissions in Linux. `File permissions` is a sets that permit certain users to  run specific programs. It listed in a series of three different roles : user who owns the file, group, and world (everyone else).
@@ -105,7 +105,7 @@ $ tail -f <filename>
 ```
 
 ---
-### 4). Edit File Content (using echo)
+### 5). Edit File Content (using echo)
 we can edit the content of a file by using echo, if we type the following command it will rewrite the file with the new string
 ```
 $ echo <string> > <filename>

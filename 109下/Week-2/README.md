@@ -67,7 +67,7 @@ $ su
 After that type the following command to see our current hostname:
 
 ```
-$ hostnamectl
+# hostnamectl
 ```
 sample output:
 
@@ -75,7 +75,7 @@ sample output:
 
 Use the command below to change the hostname. For example we want to change the device name from "centos7" into "centos7new"
 ```
-$ hostnamectl set-hostname centos7new
+# hostnamectl set-hostname centos7new
 ```
 sample output:
 

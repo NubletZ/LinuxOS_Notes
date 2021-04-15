@@ -1,4 +1,4 @@
-# LINUX WEEK 5 (23-03-2021)
+# LINUX WEEK 5 (03-23-2021)
 ## Notes
 ### Six stages of Linux booting process
 1. BIOS : Basic Input/Output System will loads and executes MBR boot loader.
@@ -27,8 +27,8 @@
 > * run level 5 - /etc/rc.d/rc5.d/
 > * run level 6 - /etc/rc.d/rc6.d/
 
-### Difference between history and .bash_history content
-history and .bash_history both show the command history, but because .bash_history is a file so the command history would be written there after a specific periode of time. So all the command history would first be wrote in memory, since if it need to write to the file for each command that you have typed it will be not good for performance.
+### Difference between history command and .bash_history content
+history command and .bash_history both show the commands history, but because .bash_history is a file so the commands history would be written there after a specific periode of time. Before write into .bash_history, all of the commands history will be written in memory first. Since if it need to directly write into the file for each command that you have typed it will be not good for the performance.
 
 ### About Shell
 Shell is a middle software, it will interprete user language into a language that kernel can undestand, after kernel finished the process, it will interpret the result into the language that user can understand
