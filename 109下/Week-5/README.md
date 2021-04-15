@@ -34,20 +34,21 @@ history and .bash_history both show the command history, but because .bash_histo
 Shell is a middle software, it will interprete user language into a language that kernel can undestand, after kernel finished the process, it will interpret the result into the language that user can understand
 
 ## Command
+### 1). Execute previous command
 this command will reexecute the previous command
 ```
 $!!
 ```
 
 ---
-
+### 2). Put gedit process in background
 if you type "$gedit a.txt" you still can do input in your terminal, but can't type command because you terminal is currently editing a.txt file. Type it like the command below to put the process on the background so you can continue to type command while editing the file
 ```
 $ gedit a.txt &
 ```
 
 ---
-
+### 3). Edit text using sed
 command sed means string edit e.x.
 ```
 $ sed '/^$/d' a.txt
@@ -55,7 +56,7 @@ $ sed '/^$/d' a.txt
 in this commands "^$" means enter character while "/d" means delete, so this command will search for a.txt file and delete each enter in it.
 
 ---
-
+### 4). To show information who are in system
 to show who is currently in system you can type:
 ```
 $ who

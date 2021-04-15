@@ -32,6 +32,7 @@ ping google.com 1> /dev/null
 this way all of the stdout will go to /dev/null, leaving only the error messages.
 
 ## Command
+### 1). Show File Permission
 Go to dev directory and type the following command :
 ```
 $ ls -al
@@ -72,7 +73,7 @@ another way to describe privilage can also be written like 600, 644, this means 
 ```
 
 ---
-
+### 2). Create Empty File in Linux
 To create an empty file in Linux you can simply type this command :
 ```
 $ touch a.txt
@@ -80,15 +81,15 @@ $ touch a.txt
 if you try to check the "a.txt" content by typing "$ cat a.txt" you'll see that a.txt is an empty file.
 
 ---
-
-To see the information about the specified block devices such us sda (SCSI harddisk) and sr0 (CD ROM) type this command :
+### 3). Show Block Devices Information
+To see the information about the block devices such us sda (SCSI harddisk) and sr0 (CD ROM) type this command :
 ```
 $ lsblk
 ```
 ls : list, blk : bulk
 
 ---
-
+### 4). Passwd and Shadow Content
 cd to etc and type the following command :
 ```
 $ cat passwd

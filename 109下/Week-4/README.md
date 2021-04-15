@@ -102,6 +102,7 @@ If we want to move our project into another PC or we want to send it to other pe
 ---
 
 ## Command
+### 1). Shutdown Linux
 There are several commands that you can use to shutdown Linux
 ```
 $ power off
@@ -113,6 +114,8 @@ $ shutdown -h
 
 <br>
 
+---
+### 2). Restart Linux
 If you want to restart your VM in Linux you can type
 ```
 $ reboot
@@ -121,6 +124,9 @@ $ shutdown -r
 ```
 
 <br>
+
+---
+### 3). Grep
 
 grep (globally search for regular expression and print out) is a command that commonly used in filtering search file result.
 ```

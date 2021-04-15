@@ -1,4 +1,4 @@
-# LINUX WEEK 3 (09-03-2021)
+# LINUX WEEK 3 (03-09-2021)
 
 ## Notes
 ### Red Hat
@@ -81,6 +81,7 @@ sample output :
 <br>
 
 ## Command
+### 1). echo
 ```
 $ echo "some string"
 ```
@@ -93,11 +94,21 @@ $ echo "hello world" > hello.htm
 
 > this command wouldn't print the string in your terminal, it will save the string in file "he.htm" instead.
 
+<br>
+
+---
+### 2). Show file content
+
 ```
 $ cat filename
 ```
 
 > cat command is used to show the file content in your terminal.
+
+<br>
+
+---
+### 3). Create web server
 
 ```
 $sudo python -m SimpleHTTPServer 80

@@ -54,6 +54,7 @@ The difference between this two link is :
 <br>
 
 ## Command
+### 1). Copy File
 This command will copy a file, it enable us to set the new file location and even rename it
 ```
 $ cp <filename> <file destination>
@@ -63,11 +64,13 @@ for example, the following command would copy "myFile" into tmp directory and na
 $ cp myFile /tmp/z
 ```
 ---
+### 2). Move File
 The following command is used to move the file into a new file path, but it often used to change the filename also
 ```
 $ mv <filename> <file destination>
 ```
 ---
+### 3). Remove File and Directory
 to remove a file you can type :
 ```
 $ rm <filename>
@@ -87,7 +90,7 @@ $ rm -rf <directory name>
 ```
 
 ---
-
+### 4). Read File Content (using head and tail)
 to read a file we've familiar with this three commands `cat`, `more`, and `less`. Besides three of them we also can use `head` or `tail` to read the file content. The difference is head will read the file from the beginning while tail will read the file from its end line. Example :
 ```
 the command below will show 10 line from the top :
@@ -102,7 +105,7 @@ $ tail -f <filename>
 ```
 
 ---
-
+### 4). Edit File Content (using echo)
 we can edit the content of a file by using echo, if we type the following command it will rewrite the file with the new string
 ```
 $ echo <string> > <filename>

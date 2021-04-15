@@ -1,5 +1,5 @@
-# LINUX Week 2 (23-02-2021)
-## 2 Type of Cloning in VM :
+# LINUX Week 2 (02-30-2021)
+## Two Type of Cloning in VM :
 * Full-clone : this clone method is an independent copy of a VM and it won't share anything with the parent VM after the cloning operation. The ongoing operation of full clone is entirely separate from it's parent
 
 * Linked clone : this clone method is a copy of VM that shares virtual disks with it's parent. This method will conserves disk space, and allows multiple VM to use the same software installation
