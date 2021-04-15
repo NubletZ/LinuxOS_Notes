@@ -1,5 +1,5 @@
 # LINUX Week 1 (02-23-2021)
-## 1. Linux Distribution (Linux distro)
+## Linux Distribution (Linux distro)
 Linux Distribution is a version of the open source Linux operating system made from a software collection, based upon the Linux kernel and often a package management system. There are a lot of Linux distribution types, including :
 * Red Hat
 * Ubuntu
