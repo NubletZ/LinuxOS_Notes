@@ -18,7 +18,7 @@ In VirtualBox we can built an internal network and let each devices in it can co
 
 <img src="example2.jpg" alt="set IP" title="set IP" width="900" />
 
-> set each devices IP address by typing for example "ifconfig enp0s3 192.168.100.2/24" like what's wrote on centos7 clone terminal (left side) and using one device to ping the other device. Here I use centos7 (right side) to ping centos7 clone (left side).
+> set each devices IP address by typing for example "ifconfig enp0s3 192.168.100.2/24" like what's written on centos7 clone terminal (left side) and using one device to ping the other device. Here I use centos7 (right side) to ping centos7 clone (left side).
 
 ## Make Two Devices Communicating by Using Cloud
 Actualy there are two ways to conect two devices, by using SSH or Telnet. But it's better to use SSH instead of Telnet in conecting two devices since it's security.
@@ -42,7 +42,7 @@ $ ifconfig
 ### 2. Reset IP address modification
 below is command to reset the modification on IP address, suppose that device network name is epn0s3
 ```
-$ ifconfig enp03s 0
+$ ifconfig enp0s3 0
 ```
 
 ---
@@ -51,7 +51,7 @@ $ ifconfig enp03s 0
 ### 3. Set IP address
 Write the command below in terminal to set IP address. (New IP = 192.168.100.1, Net Mask = 24)
 ```
-$ ifconfig enp03s 192.168.100.1/24
+$ ifconfig enp0s3 192.168.100.1/24
 ```
 
 ---

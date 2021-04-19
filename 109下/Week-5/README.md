@@ -19,6 +19,7 @@
 
 6. Runlevel : Runlevel programs are executed from different directories depending on run level.
 <img src="runlevel.png" alt="runlevel" title="runlevel" width="900" />
+
 > * run level 0 - /etc/rc.d/rc0.d/
 > * run level 1 - /etc/rc.d/rc1.d/
 > * run level 2 - /etc/rc.d/rc2.d/
@@ -70,4 +71,4 @@ $ w
 * ctrl + A : will bring you to the first word in your command
 * ctrl + E will bring you to the end of your command
 * ctrl + C to end the process
-* ctrl + Z will stop the program and put it in the background. e.x output = [1] Stopped ping 8.8.8.8, to run it agai you need to type "$fg 1"
+* ctrl + Z will stop the program and put it in the background. e.x output = [1] Stopped ping 8.8.8.8, to run it again you need to type "$fg 1"

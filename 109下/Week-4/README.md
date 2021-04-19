@@ -26,7 +26,7 @@ This directory contains executable files for basic shell commands (ls, cd, etc).
 this directory contains system-wide configuration files, while user-specific counfiguration files are located in specific user's home directory.
 
 ### 5. /home : Home Folders
-This directory contains user persolan diirectories. It contains the user's data files and user-specific configuration files.
+This directory contains user personal directories. It contains the user's data files and user-specific configuration files.
 
 ### 6. /usr - User binaries and program data 
 Contains binaries, libraries, documentation, and source code for second level programs.
@@ -68,7 +68,7 @@ Mount ponts for removable media such as USB disk, SD card, DVD.
 ### 16. /mnt - Mount directory
 This directory is similar to /media, but instead of mounting the removable media, it is used by syset administrators to manually mout a filesystem.
 
-### 17.srv - Service data
+### 17. /srv - Service data
 this directory contains data for services provided by the system.
 
 ---

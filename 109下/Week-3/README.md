@@ -92,7 +92,7 @@ $ echo "some string"
 $ echo "hello world" > hello.htm
 ```
 
-> this command wouldn't print the string in your terminal, it will save the string in file "he.htm" instead.
+> this command wouldn't print the string in your terminal, it will save the string in file "hello.htm" instead.
 
 <br>
 
