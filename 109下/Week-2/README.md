@@ -42,7 +42,7 @@ $ ifconfig
 ### 2. Reset IP address modification
 below is command to reset the modification on IP address, suppose that device network name is epn0s3
 ```
-$ ifconfig enp0s3 0
+# ifconfig enp0s3 0
 ```
 
 ---
@@ -51,7 +51,7 @@ $ ifconfig enp0s3 0
 ### 3. Set IP address
 Write the command below in terminal to set IP address. (New IP = 192.168.100.1, Net Mask = 24)
 ```
-$ ifconfig enp0s3 192.168.100.1/24
+# ifconfig enp0s3 192.168.100.1/24
 ```
 
 ---

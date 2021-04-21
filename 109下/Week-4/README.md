@@ -66,7 +66,7 @@ This directory work as the home directory of the root user.
 Mount ponts for removable media such as USB disk, SD card, DVD.
 
 ### 16. /mnt - Mount directory
-This directory is similar to /media, but instead of mounting the removable media, it is used by syset administrators to manually mout a filesystem.
+This directory is similar to /media, but instead of mounting the removable media, it is used by system administrators to manually mount a filesystem.
 
 ### 17. /srv - Service data
 this directory contains data for services provided by the system.
