@@ -18,14 +18,14 @@ You need to know that Linux uses a combination of bits to store the permissions 
 ```
 make sure that the file is executable otherwise you will see a capital 'S' instead of lowercase 's' which means the setUID is set but the user that own the files doesn't have a permission to execute it.
 
-2). `SetGID` make a procell will run as the group that owns the file when executed (e.x. crontab). To set up setGID we can execute the command below :
+2). `SetGID` make a process will run as the group that owns the file when executed (e.x. crontab). To set up setGID we can execute the command below :
 ```
-$ chmod g+s <filename>
+# chmod g+s <filename>
 ```
 
 3). `Sticky Bit` is a special permission that will make the files in a directory only can be removed by the owner when setted up. To set it up on a file, type the following command :
 ```
-chmod +t <filename>
+# chmod +t <filename>
 ```
 <br>
 this three special permissions are very useful for separating the ability of user or group in accessing the file.
