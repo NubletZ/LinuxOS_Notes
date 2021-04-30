@@ -14,7 +14,7 @@ Local forwarding is used to forward a port from client machine into server machi
 we can use the following command to build SSH conection between 10.0.0.1 and 10.0.0.2 :
 
 ```
-# ssh -L 5555:10.0.0.2:80 user@10.0.0.2
+$ ssh -L 5555:10.0.0.2:80 user@10.0.0.2
 ```
 
 While in the picture below, the server secure shell and app server are in different machine. Note that the conection between 192.168.0.2 and 192.168.0.3 is not encrypted.

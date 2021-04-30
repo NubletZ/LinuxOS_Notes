@@ -19,11 +19,11 @@ This file is present in every single Linux system. unlike other virtual files, i
 > * 2 : standard error output (stderr)
 > normally 0 rever to keyboard, while 1 and 2 rever to monitor.
 
-as an example, if you type a command like "$ ping 8.8.8.8" it will show the standard output.
+as an example, if you type a command like `$ ping 8.8.8.8` it will show the standard output.
 
 <img src="ping.PNG" alt="Ping 8.8.8.8" title="Ping 8.8.8.8" width="900" />
 
-From the picture above you can see that at the first time I didn't connect my device into internet, so when I try to ping 8.8.8.8 it show an error message "Network is unreachable" and when I chech the exit status from the previous command by typing "$ echo $?" , it return 2 which rever to standard error output. While after I connect the device into internet it success to ping 8.8.8.8 and when I check the exit status, it return 0 which means the program has been executed successfuly.
+From the picture above you can see that at the first time I didn't connect my device into internet, so when I try to ping 8.8.8.8 it show an error message "Network is unreachable" and when I chech the exit status from the previous command by typing `$ echo $?` , it return 2 which rever to standard error output. While after I connect the device into internet it success to ping 8.8.8.8 and when I check the exit status, it return 0 which means the program has been executed successfuly.
 
 As you know if we pinging 8.8.8.8 it will keep showing the successful ping results. But what if we only want to see the result when the ping is fail? We can put all the successful ping into /dev/null so that we will only see the fail ping. You can type the following command for that :
 ```
