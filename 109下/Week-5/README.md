@@ -67,6 +67,13 @@ or to show more information about it, type :
 $ w
 ```
 
+---
+### 5). Show file content
+There are several ways to see the file content:
+1. `$ cat` : directly show all of the file content.
+2. `$ more` : will show the file content separately in each layer. In more you can use down key to see the next content and `ctrl + B` to go backward.
+3. `$ less` : it's similar to more but in less you can use key up to see the next content and key down to see backward.
+
 ## Shorcut Keys In Terminal
 * ctrl + A : will bring you to the first word in your command
 * ctrl + E will bring you to the end of your command

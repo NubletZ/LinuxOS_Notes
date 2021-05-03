@@ -59,3 +59,17 @@ Parameters :
 `-q` : enable quiet mode
 
 `-N` : tells SSH that no command will be sent once the tunnel is up
+
+## Command
+### 1). Set firewall to nonactive
+to nonactive the firewall, you can use the following command :
+```
+$ systemctl stop firewalld
+```
+
+### 2). Set up web server using SimpleHTTPServer
+To set up a web server you can use SimpleHTTPServer, a python module which allows you to instantly create web server or serve your files in a snap.
+```
+$ python -m SimpleHTTPServer 80
+```
+The above command would set up web server on port 80.
