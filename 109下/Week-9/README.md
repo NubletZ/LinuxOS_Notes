@@ -13,11 +13,6 @@ to execute the file in relative path we need to add `./` before the filename to 
 
 <br>
 
-## How To
-### Compress a file
-
-<br>
-
 ## Command
 ### 1). Edit file content in terminal
 You can use the following command to edit the file content in terminal
@@ -82,6 +77,29 @@ to see the total lines, words, and characters from a file can use the following 
 $ wc
 ```
 parameter :
+
 `-l` for line
+
 `-w` for word
+
 `-c` for character
+
+<br>
+
+---
+
+<br>
+
+### 5). Compress and extract file in Linux
+To compress file in Linux can use the following code
+
+```
+$ tar czvf backup.tar.gz *
+```
+"*" means all files in the current working directory, so the above command would compress all files in current working directory and name the compressed file as "backup.tar.gz".
+
+While to extract the compressed file you can use the code below
+
+```
+$ tar xvfz backup.tar.gz
+```
