@@ -111,7 +111,7 @@ $ cat filename
 ### 3). Create web server
 
 ```
-$sudo python -m SimpleHTTPServer 80
+$ sudo python -m SimpleHTTPServer 80
 ```
 
 > this command will create a web server that will listen to the port 80

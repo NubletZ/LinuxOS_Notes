@@ -20,12 +20,12 @@ make sure that the file is executable otherwise you will see a capital 'S' inste
 
 2). `SetGID` make a process will run as the group that owns the file when executed (e.x. crontab). To set up setGID we can execute the command below :
 ```
-# chmod g+s <filename>
+# chmod g+s filename
 ```
 
 3). `Sticky Bit` is a special permission that will make the files in a directory only can be removed by the owner when setted up. To set it up on a file, type the following command :
 ```
-# chmod +t <filename>
+# chmod +t filename
 ```
 <br>
 this three special permissions are very useful for separating the ability of user or group in accessing the file.
@@ -57,7 +57,7 @@ The difference between this two link is :
 ### 1). Copy File
 This command will copy a file, it enable us to set the new file location and even rename it
 ```
-$ cp <filename> <file destination>
+$ cp [filename] [file destination]
 ```
 for example, the following command would copy "myFile" into tmp directory and name it as "z".
 ```
@@ -67,13 +67,13 @@ $ cp myFile /tmp/z
 ### 2). Move File
 The following command is used to move the file into a new file path, but it often used to change the filename also
 ```
-$ mv <filename> <file destination>
+$ mv [filename] [file destination]
 ```
 ---
 ### 3). Remove File and Directory
 to remove a file you can type :
 ```
-$ rm <filename>
+$ rm [filename]
 ```
 attribute :
 > * -f (force) : delete the file without asking for permission
@@ -82,11 +82,11 @@ attribute :
 
 if you have an `empty` directory you can use the following command to delete it :
 ```
-$ rmdir <directory name>
+$ rmdir [directory name]
 ``` 
 but if the directory contains files then we can execute the following command to delete it :
 ```
-$ rm -rf <directory name>
+$ rm -rf [directory name]
 ```
 
 ---
@@ -94,24 +94,24 @@ $ rm -rf <directory name>
 to read a file we've familiar with this three commands `cat`, `more`, and `less`. Besides three of them we also can use `head` or `tail` to read the file content. The difference is head will read the file from the beginning while tail will read the file from its end line. Example :
 ```
 the command below will show 10 line from the top :
-$ head -n 10 <filename>
+$ head -n 10 [filename]
 
 the command bellow will show 10 line from the bottom :
-$ tail -n 10  <filename>
+$ tail -n 10  [filename]
 ```
 To show the file content and keep tracking for its change, we can add -f attribute to them like the command below
 ```
-$ tail -f <filename>
+$ tail -f [filename]
 ```
 
 ---
 ### 5). Edit File Content (using echo)
 we can edit the content of a file by using echo, if we type the following command it will rewrite the file with the new string
 ```
-$ echo <string> > <filename>
+$ echo [string] > [filename]
 ```
 but the next command would append it into the content instead of rewrite it
 ```
-$ echo <string> >> <filename>
+$ echo [string] >> [filename]
 ```
 pay attention to `>` and `>>`.
