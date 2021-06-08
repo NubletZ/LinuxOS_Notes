@@ -1,4 +1,4 @@
-# LINUX WEEK 12 (06-08-2021)
+# LINUX WEEK 14 (06-08-2021)
 ## Iptables
 iptables is like the opposite of firewalld, if you add rules in iptables then the traffic will be dropped, and if you don't set any  rules then all access will be accepted. While in firewalld its default is to reject the traffic, so if we don't set a rule then it will reject the access. The iptables places rules into predefined `chains` :
 1. `INPUT` - All packets destined for the host computer
