@@ -1,4 +1,4 @@
-# LINUX WEEK 12 (06-01-2021)
+# LINUX WEEK 13 (06-01-2021)
 ## Linux Firewall
 Firewall is a set of a rules. In linux there are several tools that can be use for managing the firewall including iptables and firewalld. The main difference between this two tools is by using iptables to set up new rules then it will flush the entire rules set unlike firewalld that won't re-creating of all rules, it will only adding the difference into rules.
 
