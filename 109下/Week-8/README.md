@@ -1,7 +1,7 @@
 # LINUX WEEK 8 (04-27-2021)
 ## Notes
 ### SSH Tunnel
-SSH Tunnel is a secure method for connecting a local computer with a remote machine through an encrpted SSH connection. While SSH it self is a standard for secure remote logins and file transfers over untrusted networks. There are three types of SSH Tunneling including :
+SSH Tunnel is a secure method for connecting a local computer with a remote machine through an encrypted SSH connection. While SSH it self is a standard for secure remote logins and file transfers over untrusted networks. There are three types of SSH Tunneling including :
 1. Local port forwarding
 2. Remote port forwarding
 3. Dynamic port forwarding

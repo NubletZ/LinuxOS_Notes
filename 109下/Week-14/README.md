@@ -21,8 +21,8 @@ you can use IP Address to block all traffic coming in on a specific interface by
 
 Parameter :
 * A : append (add a new rule)
-* S : source
-* J : jump (to execute)
+* s : source
+* j : jump (to execute)
 
 ### Drop Traffic Processed by FORWARD and OUTPUT
 The following command will drop all traffic processed by FORWARD, from port 80

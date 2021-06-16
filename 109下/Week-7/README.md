@@ -57,18 +57,24 @@ The difference between this two link is :
 ### 1). Copy File
 This command will copy a file, it enable us to set the new file location and even rename it
 ```
-$ cp [filename] [file destination]
+$ cp [filename] [destination path]
 ```
 for example, the following command would copy "myFile" into tmp directory and name it as "z".
 ```
 $ cp myFile /tmp/z
 ```
 ---
-### 2). Move File
-The following command is used to move the file into a new file path, but it often used to change the filename also
+### 2). Move File and Folder
+The following command is used to move the file into a new file path, but it oftenly used to change the filename by adding the new filename at the end of the destination path.
 ```
-$ mv [filename] [file destination]
+$ mv [filename] [destination path]
 ```
+
+While to move a folder including its files we can type the following command
+```
+$ mv  -v [foldername] [destination path]
+```
+
 ---
 ### 3). Remove File and Directory
 to remove a file you can type :
