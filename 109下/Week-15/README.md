@@ -10,7 +10,7 @@ System time is handeled by Linux OS, when you boot the system then system will r
 NTP is a way of keeping correct time on computers. ntpd, the NTP daemon will periodically queries a public time server and adjusts your system time.
 
 ## Crontab
-Crond have connection with time. We can use it to do designated job in certain time, for example set a schedule to backup the data in our device every 2 a.m of January 20.
+The cron utility runs based on commands specified in a cron table (crontab). Cron have connection with scheduled time in Linux. We can use it to do designated job in certain time, for example set a schedule to backup the data in our device every 2 a.m of January 20.
 
 ### Below is the Cron table format :
 
@@ -37,18 +37,18 @@ example :
 ```
 
 ### Set multiple values in a field :
- > `asterisk (*)` : specifies all possible values for a vield (e.x every minute, every hour, every day, etc).
- > `comma (,)` : specifies a list of values (e.x 2,4,6,7)
- > `dash (-)` : specifies a range of values (e.x 1-4 which equal to 1,2,3,4)
- > `slash (/)` : specifies list of values that divisible by n (e.x */3 is equal to 0, 3, 6, 9, etc)
+ * `asterisk (*)` : specifies all possible values for a vield (e.x every minute, every hour, every day, etc).
+ * `comma (,)` : specifies a list of values (e.x 2,4,6,7)
+ * `dash (-)` : specifies a range of values (e.x 1-4 which equal to 1,2,3,4)
+ * `slash (/)` : specifies list of values that divisible by n (e.x */3 is equal to 0, 3, 6, 9, etc)
 
 ### Crontab options :
 ```
 $ crontab [options]
 ```
- > `-e` : install or update job in crontab
- > `-l` : list crontab entries
- > `-u username` : specifies which user whose crontab is to be tweaked. Need to be noted that in su it's important to always use the -u option to avoid confusion.
+ * `-e` : install or update job in crontab
+ * `-l` : list crontab entries
+ * `-u username` : specifies which user whose crontab is to be tweaked. Need to be noted that in su it's important to always use the -u option to avoid confusion.
 
 ## How to limit user storage in Linux
 1. You need to enter su mode and modify /etc/fstab. Beside /home you will find defaults, add usrquota and grpquota beside defaults like shown in the image below.

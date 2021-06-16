@@ -37,7 +37,7 @@ while to remove it you can use the following code
 ```
 # firewall-cmd --zone=public --permanent --remove-server=http
 ```
-### Allow connection for specific user in public zone
+### 3). Allow connection for specific user in public zone
 Using firewalld we can set our firewall to enable connection for specific user. In public zone, it will enable http service for default, you can check it by type command :
 ```
 # firewall-cmd --zone=public --list-all
