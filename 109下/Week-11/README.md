@@ -68,7 +68,7 @@ The command above will show the information below :
 ### 5). See user group information
 To see the information about user's group you can type the following command
 ```
-$ group [username]
+$ groups [username]
 ```
 
 ### 6). Change user password
