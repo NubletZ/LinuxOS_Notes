@@ -8,7 +8,7 @@ to execute the file in relative path we need to add `./` before the filename to 
 
 ### Command to Find Certain File in Linux
 1. `$ which` : this command only can be use to find executable files.
-2. `$ locate` : this command use the database to search for the file. Before running this command it's important to update database by execute `$ updatedb` command to make sure that all the files have been included to database.
+2. `$ locate` : this command use the database to search for the file. Before running this command it's important to update database by execute `# updatedb` command to make sure that all the files have been included to database.
 3. `$ find` : this command would search for the file by accessing the harddisk directly so this command need more time to run it. But this command has more features that would be useful in finding the file. We can set to find the file with size above 5MB, or with change mode time within 7 days, etc.
 
 <br>
