@@ -4,8 +4,8 @@
 ### GNU General Public License
 The GNU GPL is a free software licenses written by Richard Stallman, founder of the Free Software Foudation (FSF) for the the GNU Project. This software has been widely used and guarantee the end users freedom to run, study, share, and modify the software.
 
-### Linux Filesystem Hierarchy Standard (FSH)
-FSH defines the directory structure and the purpose of directories in Linux. The image below show how directory structure in Linux looks like.
+### Linux Filesystem Hierarchy Standard (FHS)
+FHS defines the directory structure and the purpose of directories in Linux. The image below show how directory structure in Linux looks like.
 
 
 ### 1. / : The root directory
