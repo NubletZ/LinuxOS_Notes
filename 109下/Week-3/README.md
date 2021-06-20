@@ -116,6 +116,10 @@ $ sudo python -m SimpleHTTPServer 80
 
 > this command will create a web server that will listen to the port 80
 
+<br>
+
+---
+
 ### 4). Show current working directory
 
 ```
